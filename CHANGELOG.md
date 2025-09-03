@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-11)
+## Unreleased (2025-09-03)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`5c0304c`](https://github.com/stdlib-js/stdlib/commit/5c0304cac2c538d91d09b6b30202f71e9b2b8650) - update `fromIndex` handling in `blas/ext/base/ndarray/slast-index-of` [(#8007)](https://github.com/stdlib-js/stdlib/pull/8007)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`5c0304c`](https://github.com/stdlib-js/stdlib/commit/5c0304cac2c538d91d09b6b30202f71e9b2b8650) - **fix:** update `fromIndex` handling in `blas/ext/base/ndarray/slast-index-of` [(#8007)](https://github.com/stdlib-js/stdlib/pull/8007) _(by Muhammad Haris)_
 -   [`9cc5aa7`](https://github.com/stdlib-js/stdlib/commit/9cc5aa7406c2b2d0029a355fa037a599f8cf5b05) - **docs:** remove self-requires from main.js example code _(by Philipp Burckhardt)_
 -   [`c811786`](https://github.com/stdlib-js/stdlib/commit/c811786b99640b0b08a3d7441e780b81c83dd81d) - **feat:** add `blas/ext/base/ndarray/slast-index-of` [(#7605)](https://github.com/stdlib-js/stdlib/pull/7605) _(by Muhammad Haris, stdlib-bot)_
 

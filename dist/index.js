@@ -1,5 +1,5 @@
-"use strict";var q=function(i,e){return function(){return e||i((e={exports:{}}).exports,e),e.exports}};var d=q(function(I,f){
-var l=require('@stdlib/ndarray-base-numel-dimension/dist'),o=require('@stdlib/ndarray-base-stride/dist'),x=require('@stdlib/ndarray-base-offset/dist'),c=require('@stdlib/ndarray-base-data-buffer/dist'),m=require('@stdlib/blas-ext-base-slast-index-of/dist').ndarray,u=require('@stdlib/ndarray-base-ndarraylike2scalar/dist');function g(i){var e,r,v,n,s,a,t;if(t=i[0],a=l(t,0),e=u(i[1]),r=u(i[2]),r<0)r+=a,r<0&&(r=0);else if(r>=a)return-1;return a-=r,v=o(t,0),n=x(t)+v*r,s=m(a,e,c(t),v,n),s>=0&&(s+=r),s}f.exports=g
-});var p=d();module.exports=p;
+"use strict";var v=function(i,r){return function(){return r||i((r={exports:{}}).exports,r),r.exports}};var s=v(function(g,u){
+var f=require('@stdlib/ndarray-base-numel-dimension/dist'),d=require('@stdlib/ndarray-base-stride/dist'),q=require('@stdlib/ndarray-base-offset/dist'),l=require('@stdlib/ndarray-base-data-buffer/dist'),c=require('@stdlib/blas-ext-base-slast-index-of/dist').ndarray,n=require('@stdlib/ndarray-base-ndarraylike2scalar/dist');function m(i){var r,e,t,a;if(a=i[0],t=f(a,0),r=n(i[1]),e=n(i[2]),e<0){if(e+=t,e<0)return-1}else e>=t&&(e=t-1);return c(e+1,r,l(a),d(a,0),q(a))}u.exports=m
+});var o=s();module.exports=o;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
