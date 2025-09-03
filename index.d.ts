@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,12 +16,17 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { float32ndarray, typedndarray } from '@stdlib/types/ndarray';
 
 /**
-* Return the last index of a search element in a one-dimensional single-precision floating-point ndarray.
+* Returns the last index of a search element in a one-dimensional single-precision floating-point ndarray.
 *
-* @module @stdlib/blas-ext-base-ndarray-slast-index-of
+* @param arrays - array-like object containing a one-dimensional input ndarray, a zero-dimensional ndarray containing the search element, and a zero-dimensional ndarray containing the index from which to begin searching
+* @returns index
 *
 * @example
 * var Float32Array = require( '@stdlib/array-float32' );
@@ -43,12 +48,9 @@
 * var v = slastIndexOf( [ x, searchElement, fromIndex ] );
 * // returns 3
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function slastIndexOf( arrays: [ float32ndarray, typedndarray<number>, typedndarray<number> ] ): number;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = slastIndexOf;
