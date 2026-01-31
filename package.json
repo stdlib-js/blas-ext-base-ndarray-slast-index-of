@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-ext-base-ndarray-slast-index-of",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return the last index of a specified search element in a one-dimensional single-precision floating-point ndarray.",
   "license": "Apache-2.0",
   "author": {
@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/blas-ext-base-slast-index-of": "github:stdlib-js/blas-ext-base-slast-index-of#main",
+    "@stdlib/blas-ext-base-slast-index-of": "^0.1.0",
     "@stdlib/ndarray-base-data-buffer": "^0.2.2",
     "@stdlib/ndarray-base-ndarraylike2scalar": "github:stdlib-js/ndarray-base-ndarraylike2scalar#main",
     "@stdlib/ndarray-base-numel-dimension": "^0.3.2",
@@ -87,7 +87,6 @@
     "get",
     "ndarray"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
